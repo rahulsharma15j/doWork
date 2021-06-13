@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  &-left {
+    display: flex;
+
+    &-list {
+      display: flex;
+      margin: auto;
+      list-style-type: none;
+
+      &__item {
+        margin: 0 0.4rem;
+      }
+    }
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+
+    &__search {
+      margin: 0 1rem;
+    }
+
+    &__btn {
+      margin: 0 0.5rem;
+    }
+  }
+}
